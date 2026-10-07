@@ -9,7 +9,7 @@ const multiEls = document.querySelectorAll('button.btn-active'); // Returns stat
 // Traditional Selectors (Faster in legacy performance benchmarks)
 const elById = document.getElementById('submit-btn');          // Returns Element or null
 const elsByClass = document.getElementsByClassName('item');   // Returns live HTMLCollection
-const elsByTag = document.getElementsByTagName('div');        // Returns live HTMLCollection
+const elsByTag = document.getElementsByTagName('div');       // Returns live HTMLCollection
 
 
 // ==========================================
