@@ -7,7 +7,7 @@
 const arr = [1, 2, 3, 4];
 
 // Element Modification
-arr[2] = 10; // Mutates index 1 -> [1, 10, 3, 4]
+arr[1] = 10; // Mutates index 1 -> [1, 10, 3, 4]
 
 // Adding & Removing Elements (Mutates Original)
 arr.push(4);            // Adds to end -> [1, 10, 3, 4, 4]
