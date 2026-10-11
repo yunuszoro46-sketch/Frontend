@@ -13,6 +13,7 @@ arr[1] = 10; // Mutates index 1 -> [1, 10, 3, 4]
 arr.push(4);            // Adds to end -> [1, 10, 3, 4, 4]
 arr.push(4, 5, 6);      // Adds multiple -> [1, 10, 3, 4, 4, 4, 5, 6]
 arr.pop();              // Removes last element -> [1, 10, 3, 4, 4, 4, 5]
+arr.push(20);
 arr.push(10);
 
 
